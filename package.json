@@ -6,6 +6,8 @@
   "keywords": [],
   "author": "Litruv",
   "license": "MIT",
+  "types": "index.d.ts",
+  "type": "module",
 
   "repository": {
     "type": "git",
