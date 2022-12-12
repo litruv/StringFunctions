@@ -1,10 +1,3 @@
-
-
-// Export module functions
-export const someFunction = (input) => {
-  // Function implementation
-};
-
 /**
  * Splits a given paragraph into an array of strings, each with a maximum length of `maxSize`.
  * @param {string} paragraph - The paragraph to split.
