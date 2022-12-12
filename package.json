@@ -1,0 +1,9 @@
+{
+  "name": "stringfunctions",
+  "version": "1.0.0",
+  "description": "This module exports two functions for splitting strings into arrays of strings with a specified maximum length. The `splitParagraph` function splits a given paragraph into an array of strings, each with a maximum length of the specified maximum length. The `splitString` function splits a given string into an array of strings, each with a maximum length of the specified maximum length, and each separated by at least two newlines or two `\r\n` sequences.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Litruv",
+  "license": "MIT"
+}
