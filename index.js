@@ -1,15 +1,15 @@
 /**
  * Splits a given paragraph into an array of strings, each with a maximum length of `maxSize`.
  * @param {string} paragraph - The paragraph to split.
- * @param {number} maxSize - The maximum length of each string in the resulting array.
+ * @param {number} maxLength - The maximum length of each string in the resulting array.
  * @returns {string[]} - The array of split strings.
  */
-export const splitParagraph = (paragraph, maxSize) => {
+export const splitParagraph = (paragraph, maxLength) => {
     const words = paragraph.split(" ");
     const splitStrings = [];
     let currentString = "";
     for (const word of words) {
-        if (currentString.length + word.length <= maxSize) {
+        if (currentString.length + word.length <= maxLength) {
             currentString += word + " ";
         } else {
             splitStrings.push(currentString);
