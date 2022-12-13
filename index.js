@@ -44,3 +44,14 @@ export const splitString = (str, maxLength) => {
     }
     return splitStrings;
 }
+
+/**
+ * Checks if a string contains a URL.
+ * @param {string} str - The string to check.
+ * @returns {boolean} - True if the string contains a URL, false otherwise.
+ */
+export const containsURL = (str) => {
+  const regex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]+[0-9a-zA-Z()@:%_\+.~#?&\/\/=]*\b([-a-zA-Z0-9()@:%_\+.~#?&\/\/=]*)/;
+  return regex.test(str);
+}
+
